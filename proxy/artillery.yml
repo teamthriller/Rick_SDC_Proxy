@@ -1,8 +1,8 @@
 config:
-  target: 'http://proxy-load-balancer-2833d3d48fa023dc.elb.us-east-2.amazonaws.com/'
+  target: 'http://proxy-nr-lb-2-a2ca14c099936393.elb.us-east-2.amazonaws.com/'
   phases:
-    - duration: 60
-      arrivalRate: 500
+    - duration: 30
+      arrivalRate: 150
 scenarios:
   - flow:
     - get:

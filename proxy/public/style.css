@@ -1,0 +1,60 @@
+div,
+p,
+span,
+h1,
+h2 {
+ font-family: Montserrat !important;
+}
+#unifiedapp {
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+
+#Header {
+ margin-left: 230px;
+}
+
+#relatedartists {
+ margin-left: 230px;
+ font-family: Montserrat !important;
+ font-size: 10px;
+ padding-bottom: 80px;
+}
+div.ArtistList__Icon-sc-18aftq2-1 {
+ width: auto !important;
+}
+.contextmenu {
+ left: 100px !important;
+ top: 100px !important;
+}
+
+.Artist__TextStyle-sc-1vaqhjg-1 {
+ font-size: 12px !important;
+ margin-top: 15px !important;
+}
+.Sidebar {
+ height: 90vh !important;
+ padding-bottom: 90px;
+}
+
+.img-header {
+ background-size: cover !important;
+}
+
+.sc-bdVaJa {
+ height: 10vh !important;
+}
+
+.User {
+ margin-bottom: 1.5em !important;
+}
+
+.Install {
+ padding-bottom: 1.5em !important;
+}
+
+.kPFXmF {
+ top: -100% !important;
+ cursor: pointer;
+}

@@ -1,0 +1,9 @@
+config:
+  target: 'http://proxy-load-balancer-2833d3d48fa023dc.elb.us-east-2.amazonaws.com/'
+  phases:
+    - duration: 60
+      arrivalRate: 500
+scenarios:
+  - flow:
+    - get:
+        url: "/data/artist/1234"
